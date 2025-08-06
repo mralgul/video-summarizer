@@ -1,4 +1,4 @@
-# 🎥 Akıllı Video ve PDF Özetleyici
+## Akıllı Video ve PDF Özetleyici
 
 **CyberSpider Takımı - BTK Akademi Hackathon 2025 Projesi**
 
@@ -8,7 +8,7 @@ Amacımız, üretken yapay zeka teknolojilerini kullanarak video ve doküman iç
 
 ---
 
-## 📌 Proje Tanıtımı
+## Proje Tanıtımı
 
 Bu akıllı web uygulaması ile kullanıcılar:
 
@@ -16,21 +16,21 @@ Bu akıllı web uygulaması ile kullanıcılar:
 - PDF dosyası yükleyerek belge içeriğinin özetine ulaşabilir.
 - Oluşan özeti Word (.docx) veya PDF (.pdf) formatında indirebilir.
 
-👉 Arka planda Google’ın **Gemini üretken yapay zekası** kullanılmaktadır.
+-> Arka planda Google’ın **Gemini üretken yapay zekası** kullanılmaktadır.
 
 ---
 
-## 🚀 Temel Özellikler
+## Temel Özellikler
 
-- 🔗 **YouTube Desteği:** Yalnızca bağlantı girerek video içeriği otomatik çözümlenir.
-- 📄 **PDF Desteği:** Dosya yükleyerek içerik özetleme yapılabilir.
-- ⚡ **Hızlı İşlem:** Kısa sürede anlamlı ve düzenli özet üretimi.
-- 💾 **İndirme Opsiyonu:** Özeti PDF veya Word olarak dışa aktar.
-- 📝 **Düzenlenebilirlik:** Word çıktısı sayesinde özeti istediğiniz gibi düzenleyin.
+-  **YouTube Desteği:** Yalnızca bağlantı girerek video içeriği otomatik çözümlenir.
+-  **PDF Desteği:** Dosya yükleyerek içerik özetleme yapılabilir.
+-  **Hızlı İşlem:** Kısa sürede anlamlı ve düzenli özet üretimi.
+-  **İndirme Opsiyonu:** Özeti PDF veya Word olarak dışa aktar.
+-  **Düzenlenebilirlik:** Word çıktısı sayesinde özeti istediğiniz gibi düzenleyin.
 
 ---
 
-## 🧠 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 | Alan         | Teknoloji                         |
 |--------------|------------------------------------|
@@ -41,7 +41,7 @@ Bu akıllı web uygulaması ile kullanıcılar:
 
 ---
 
-## ⚙️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 > Not: Python 3.10+ önerilir.
 
