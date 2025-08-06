@@ -1,8 +1,8 @@
-## Akıllı Video ve PDF Özetleyici
+# Akıllı Video ve PDF Özetleyici
 
 **CyberSpider Takımı - BTK Akademi Hackathon 2025 Projesi**
 
-Merhaba! Bu proje, BTK Akademi tarafından düzenlenen Hackathon 2025 yarışmasına katılan **CyberSpider** takımı tarafından geliştirilmiştir.
+Merhaba! Bu proje, BTK Akademi tarafından düzenlenen Hackathon 2025 yarışmasına katılan **CyberSpider** takımı üyeleri olan Mehmet Recep Algül ve Yaren Özyürek tarafından geliştirilmiştir.
 
 Amacımız, üretken yapay zeka teknolojilerini kullanarak video ve doküman içeriklerinin hızlı, etkili ve sade bir şekilde özetlenmesini sağlamaktır.
 
@@ -16,7 +16,7 @@ Bu akıllı web uygulaması ile kullanıcılar:
 - PDF dosyası yükleyerek belge içeriğinin özetine ulaşabilir.
 - Oluşan özeti Word (.docx) veya PDF (.pdf) formatında indirebilir.
 
--> Arka planda Google’ın **Gemini üretken yapay zekası** kullanılmaktadır.
+ Arka planda Google’ın **Gemini üretken yapay zekası** kullanılmaktadır.
 
 ---
 
@@ -30,23 +30,35 @@ Bu akıllı web uygulaması ile kullanıcılar:
 
 ---
 
+Proje Yapısı:
+
+video-summarizer/
+│
+├── backend/
+│ ├── main.py # FastAPI sunucusu
+│ ├── summarizer.py # YouTube & PDF özetleme fonksiyonları
+│
+├── frontend/
+│ ├── index.html # Arayüz
+│ └── script.js # Kullanıcı işlemleri ve API istekleri
+│
+├── .env # (Kullanıcı tarafından oluşturulur)
+├── requirements.txt # Bağımlılıklar
+└── README.md # Bu dosya
+
+---
+
 ##  Kullanılan Teknolojiler
 
-| Alan         | Teknoloji                         |
-|--------------|------------------------------------|
-| Frontend     | HTML, CSS, JavaScript, Bootstrap   |
-| Backend      | Python (FastAPI)                   |
-| Yapay Zeka   | Gemini API (`google-generativeai`) |
-| Diğer        | `pytube`, `PyMuPDF`, `fpdf`, `python-docx`, `python-dotenv` |
+| Alan       | Teknoloji                                                   |
+| ---------- | ----------------------------------------------------------- |
+| Frontend   | HTML, CSS, JavaScript, Bootstrap                            |
+| Backend    | Python (FastAPI)                                            |
+| Yapay Zeka | Gemini API (`google-generativeai`)                          |
+| Diğer      | `pytube`, `PyMuPDF`, `fpdf`, `python-docx`, `python-dotenv` |
 
 ---
 
 ## Kurulum ve Çalıştırma
 
 > Not: Python 3.10+ önerilir.
-
-### 1. Depoyu Klonlayın
-
-```bash
-git clone https://github.com/mralgul/video-summarizer.git
-cd video-summarizer
