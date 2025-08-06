@@ -1,0 +1,13 @@
+flask==2.3.2
+google-generativeai==0.3.2
+pytube==15.0.0
+python-dotenv==1.0.0
+PyPDF2==3.0.1
+python-docx==0.8.11
+fpdf2==2.7.4
+waitress==2.1.2
+google-generativeai>=0.3.2
+flask
+reportlab
+python-docx
+pywin32
