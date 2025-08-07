@@ -34,29 +34,33 @@ Proje Yapısı:
 
 video-summarizer/
 
-│
+├── static/
 
-├── backend/
+│   ├── css/
 
-│ ├── main.py # FastAPI sunucusu
+│      └── style.css
 
-│ ├── summarizer.py # YouTube & PDF özetleme fonksiyonları
+│   ├── js/
 
-│
+│      └── app.js
 
-├── frontend/
+│   └── images/
 
-│ ├── index.html # Arayüz
+|      └── bg-pattern.jpeg
+       
+├── templates/
 
-│ └── script.js # Kullanıcı işlemleri ve API istekleri
+│       └── index.html
 
-│
+├── venv/
 
-├── .env # (Kullanıcı tarafından oluşturulur)
+├── .env 
 
-├── requirements.txt # Bağımlılıklar
+├── app.py
 
-└── README.md # Bu dosya
+├── README.md
+
+└── requirements.txt
 
 ---
 
