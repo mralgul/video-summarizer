@@ -33,17 +33,29 @@ Bu akıllı web uygulaması ile kullanıcılar:
 Proje Yapısı:
 
 video-summarizer/
+
 │
+
 ├── backend/
+
 │ ├── main.py # FastAPI sunucusu
+
 │ ├── summarizer.py # YouTube & PDF özetleme fonksiyonları
+
 │
+
 ├── frontend/
+
 │ ├── index.html # Arayüz
+
 │ └── script.js # Kullanıcı işlemleri ve API istekleri
+
 │
+
 ├── .env # (Kullanıcı tarafından oluşturulur)
+
 ├── requirements.txt # Bağımlılıklar
+
 └── README.md # Bu dosya
 
 ---
