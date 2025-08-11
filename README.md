@@ -85,17 +85,15 @@ video-summarizer/
    cd video-summarizer
 
 2. **Sanal ortam oluşturun ve etkinleştirin**
-
+   ```bash
      python -m venv venv
-
-     Windows: 
+     #Windows: 
      venv\Scripts\activate
-
-     Mac/Linux: 
+     #Mac/Linux: 
      source venv/bin/activate
 
 3. **Bağımlılıkları yükleyin**
-
+   ```bash
      pip install -r requirements.txt
 
 4. **Gemini API anahtarını alın**
@@ -109,7 +107,7 @@ video-summarizer/
      API_KEY=buraya_api_anahtarınızı_yazın
 
 6. **Uygulamayı başlatın**
-
+   ```bash
      python -m uvicorn app:app --reload
 
 ---
