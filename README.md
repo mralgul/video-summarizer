@@ -33,19 +33,33 @@ Arka planda Google’ın **Gemini üretken yapay zekası** kullanılmaktadır.
 ## 📂 Proje Yapısı
 
 video-summarizer/
+
 ├── static/
+
 │ ├── css/
+
 │ │ └── style.css
+
 │ ├── js/
+
 │ │ └── app.js
+
 │ └── images/
+
 │ └── bg-pattern.jpeg
+
 ├── templates/
+
 │ └── index.html
+
 ├── venv/
+
 ├── .env
+
 ├── app.py
+
 ├── README.md
+
 └── requirements.txt
 
 ---
@@ -70,48 +84,59 @@ video-summarizer/
    git clone https://github.com/kullanici/video-summarizer.git
    cd video-summarizer
 
-2.**Sanal ortam oluşturun ve etkinleştirin**
+2. **Sanal ortam oluşturun ve etkinleştirin**
+
   python -m venv venv
 
-  # Windows
+  Windows: 
   venv\Scripts\activate
 
-  # Mac/Linux
+  Mac/Linux: 
   source venv/bin/activate
 
-3.**Bağımlılıkları yükleyin**
+3. **Bağımlılıkları yükleyin**
+
   pip install -r requirements.txt
 
-4.**Gemini API anahtarını alın**
+4. **Gemini API anahtarını alın**
+
   Google AI Studio adresine gidin.
+  
   API anahtarınızı oluşturun.
 
-5.**.env dosyasını oluşturun**
+5. **.env dosyasını oluşturun**
+
   API_KEY=buraya_api_anahtarınızı_yazın
 
-6.**Uygulamayı başlatın**
+6. **Uygulamayı başlatın**
+
   python -m uvicorn app:app --reload
 
 ---
 
-##📖 Kullanım
+## 📖 Kullanım
 
 1. YouTube Özetleme
 
-  Üstteki giriş alanına YouTube video bağlantısını yapıştırın.
-  Özetle butonuna tıklayın.
-  Özet metni aşağıda belirecektir.
+     Üstteki giriş alanına YouTube video bağlantısını yapıştırın.
+
+     Özetle butonuna tıklayın.
+  
+     Özet metni aşağıda belirecektir.
 
 2. PDF Özetleme
 
-  Dosya yükleme alanından PDF dosyanızı seçin.
-  Özetle butonuna tıklayın.
-  Özet metni ekranda görünecektir.
+     Dosya yükleme alanından PDF dosyanızı seçin.
+  
+     Özetle butonuna tıklayın.
+  
+     Özet metni ekranda görünecektir.
 
 3. Özet İndirme
 
-  İndirme butonlarından istediğiniz formatı (Word veya PDF) seçin.
-  Dosya bilgisayarınıza inecektir.
+     İndirme butonlarından istediğiniz formatı (Word veya PDF) seçin.
+  
+     Dosya bilgisayarınıza inecektir.
 
 ---
 
