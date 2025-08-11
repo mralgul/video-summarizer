@@ -116,7 +116,7 @@ video-summarizer/
 
 ## 📖 Kullanım
 
-1. YouTube Özetleme
+1. **YouTube Özetleme**
 
      Üstteki giriş alanına YouTube video bağlantısını yapıştırın.
 
@@ -124,7 +124,7 @@ video-summarizer/
   
      Özet metni aşağıda belirecektir.
 
-2. PDF Özetleme
+2. **PDF Özetleme**
 
      Dosya yükleme alanından PDF dosyanızı seçin.
   
@@ -132,7 +132,7 @@ video-summarizer/
   
      Özet metni ekranda görünecektir.
 
-3. Özet İndirme
+3. **Özet İndirme**
 
      İndirme butonlarından istediğiniz formatı (Word veya PDF) seçin.
   
