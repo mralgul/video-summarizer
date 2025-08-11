@@ -23,10 +23,10 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Güncellenmiş Gemini API Konfigürasyonu
+# Gemini API Konfigürasyonu
 genai.configure(
     api_key=os.getenv("API_KEY"),
-    transport='rest',  # v1beta endpoint'i için rest transport kullan
+    transport='rest',
     client_options={
         'api_endpoint': 'https://generativelanguage.googleapis.com/v1beta'
     }
