@@ -86,31 +86,31 @@ video-summarizer/
 
 2. **Sanal ortam oluşturun ve etkinleştirin**
 
-  python -m venv venv
+     python -m venv venv
 
-  Windows: 
-  venv\Scripts\activate
+     Windows: 
+     venv\Scripts\activate
 
-  Mac/Linux: 
-  source venv/bin/activate
+     Mac/Linux: 
+     source venv/bin/activate
 
 3. **Bağımlılıkları yükleyin**
 
-  pip install -r requirements.txt
+     pip install -r requirements.txt
 
 4. **Gemini API anahtarını alın**
 
-  Google AI Studio adresine gidin.
+     Google AI Studio adresine gidin.
   
-  API anahtarınızı oluşturun.
+     API anahtarınızı oluşturun.
 
 5. **.env dosyasını oluşturun**
 
-  API_KEY=buraya_api_anahtarınızı_yazın
+     API_KEY=buraya_api_anahtarınızı_yazın
 
 6. **Uygulamayı başlatın**
 
-  python -m uvicorn app:app --reload
+     python -m uvicorn app:app --reload
 
 ---
 
